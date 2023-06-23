@@ -12,6 +12,8 @@ The API should be implemented in Python using Flask, it should expose the follow
 # Tip: 
 A good separation of concern between API layer and data-fetching layer allows for reusability and a more flexible codebase   
 
-# Bonus: 
+# Bonus:
+- Make a GraphQL API (instead of REST) with Flask and Graphene (https://graphene-python.org/)
 - Implement sorting and ordering on GET endpoints
+- Implement pagination on GET endpoints
 - Unit testing
