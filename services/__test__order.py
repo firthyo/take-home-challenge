@@ -1,5 +1,4 @@
 import unittest
-from flask import Flask
 from order import app
 
 class TestApp(unittest.TestCase):

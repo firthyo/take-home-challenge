@@ -53,7 +53,6 @@ def create_user():
         if user['email'] == user_data['email']:
             return jsonify({'error': 'Email already exists'})
 
-    # Create a unique ID for the new user
     user_id = str(uuid.uuid4())
 
     # Create a new user object
